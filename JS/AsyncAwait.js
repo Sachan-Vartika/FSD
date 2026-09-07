@@ -15,8 +15,14 @@ function f2() {
         }, 2000); 
     });
 }
-
-f1().then(f2)
-    .catch((err)=>{
-        console.log("error",err);
-    })
+ 
+async function test (){
+    try{
+        f1();
+        f2();
+    }
+    catch(err){
+        console.log("error",err)
+    }
+}
+test();
