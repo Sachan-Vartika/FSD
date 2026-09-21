@@ -1,16 +1,23 @@
+//http://localhost:5173/
+//rafce
+
+//npm run dev
 import React from 'react'
-import Student from './Components/Student'
+import Student1 from './Components/Student1'
 
 const App = () => {
   return (
     <div>
-      <h1 style={{color:'greenyellow'}}>VARTIKA SACHAN</h1>
-    <Student/>
-    <br/>
-    <Student/>
-    <br/>
-    <Student/>
-    <br/>
+      <h1>Details</h1>
+      <div style={{display:'flex', gap:'20px'}}>
+        <Student1/>
+        <br/>
+        <Student1/>
+        <br/>
+        <Student1/>
+        <br/>
+      </div>
+      
     </div>
   )
 }
