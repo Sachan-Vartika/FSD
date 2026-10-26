@@ -14,4 +14,5 @@ function myfunction() {
   )
 }
 
-export default myfunction
+
+export default App
